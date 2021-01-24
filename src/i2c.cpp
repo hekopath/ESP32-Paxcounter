@@ -39,7 +39,7 @@ void i2c_scan(void) {
       "ADS1115",    "MAX44009", "MAG3110",  "CCS811",  "HTS221",  "LPS25H",
       "LSM9DS1",    "LM8330",   "DS3231",   "LIS3DH",  "LIS3DSH", "INA219",
       "SHT3X",      "HDC1080",  "MPU6886",  "BME680",  "AXP202",  "AXP192",
-      "24AA02XEXX", "DS1307"};
+      "24AA02XEXX", "DS1307", "BH1750"};
 
   ESP_LOGI(TAG, "Starting I2C bus scan...");
 
